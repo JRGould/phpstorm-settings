@@ -2,8 +2,6 @@
   <component name="FindSettings">
     <option name="customScope" value="All Project SRC" />
     <option name="defaultScopeName" value="All Project SRC" />
-    <option name="regularExpressions" value="true" />
-    <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="All Project SRC" />
   </component>
 </application>

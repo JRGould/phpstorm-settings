@@ -4,4 +4,10 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+  <template name="pf" value="/**&#10; * &#10; */&#10;public function $NAME$() {&#10;&#9;$END$&#10;}&#10;" description="Public Function (Laravel Style)" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Class Member" value="true" />
+    </context>
+  </template>
 </templateSet>

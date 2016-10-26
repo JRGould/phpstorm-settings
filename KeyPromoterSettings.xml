@@ -1,0 +1,6 @@
+<application>
+  <component name="KeyPromoterSettings">
+    <option name="displayTime" value="600" />
+    <option name="proposeToCreateShortcutCount" value="0" />
+  </component>
+</application>

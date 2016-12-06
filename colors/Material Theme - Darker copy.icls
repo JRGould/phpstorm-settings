@@ -1,6 +1,6 @@
 <scheme name="Material Theme - Darker copy" version="142" parent_scheme="Default">
   <metaInfo>
-    <property name="modified">2016-11-28T11:32:51</property>
+    <property name="modified">2016-12-06T11:15:52</property>
     <property name="rainbow Default language">true</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.5" />
@@ -1123,6 +1123,31 @@
     <option name="PROTOCOL_REFERENCE">
       <value>
         <option name="FOREGROUND" value="219598" />
+      </value>
+    </option>
+    <option name="RAINBOW_COLOR0">
+      <value>
+        <option name="FOREGROUND" value="b13f7c" />
+      </value>
+    </option>
+    <option name="RAINBOW_COLOR1">
+      <value>
+        <option name="FOREGROUND" value="1d8bd1" />
+      </value>
+    </option>
+    <option name="RAINBOW_COLOR2">
+      <value>
+        <option name="FOREGROUND" value="ca9154" />
+      </value>
+    </option>
+    <option name="RAINBOW_COLOR3">
+      <value>
+        <option name="FOREGROUND" value="78a00" />
+      </value>
+    </option>
+    <option name="RAINBOW_COLOR4">
+      <value>
+        <option name="FOREGROUND" value="c75251" />
       </value>
     </option>
     <option name="REGEXP.BRACES">

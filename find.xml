@@ -1,7 +1,7 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="File '.../database/migrations/2016_10_03_230329_add_talent_location_fields_to_sessions_table.php - [remy]'" />
-    <option name="defaultScopeName" value="File '.../database/migrations/2016_10_03_230329_add_talent_location_fields_to_sessions_table.php - [remy]'" />
-    <option name="SEARCH_SCOPE" value="File '.../database/migrations/2016_10_03_230329_add_talent_location_fields_to_sessions_table.php - [remy]'" />
+    <option name="customScope" value="File '.../database/seeds/sessions.json - [girlboss]'" />
+    <option name="defaultScopeName" value="File '.../database/seeds/sessions.json - [girlboss]'" />
+    <option name="SEARCH_SCOPE" value="File '.../database/seeds/sessions.json - [girlboss]'" />
   </component>
 </application>

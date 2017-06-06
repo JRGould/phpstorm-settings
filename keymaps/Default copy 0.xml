@@ -1,4 +1,13 @@
 <keymap version="1" name="Default copy 0" parent="Mac OS X 10.5+">
+  <action id="ActivateFavoritesToolWindow">
+    <keyboard-shortcut first-keystroke="meta 0" />
+  </action>
+  <action id="ActivateFindToolWindow">
+    <keyboard-shortcut first-keystroke="meta 2" />
+  </action>
+  <action id="ActivateRunToolWindow">
+    <keyboard-shortcut first-keystroke="meta 3" />
+  </action>
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="alt f12" />
     <keyboard-shortcut first-keystroke="meta 4" />

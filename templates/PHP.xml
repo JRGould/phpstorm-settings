@@ -29,7 +29,7 @@
       <option name="PHP Comment" value="false" />
     </context>
   </template>
-  <template name="test" value="/** @test */&#10;function $TEST_NAME$()&#10;{&#10;  $END_CODE$&#10;}" toReformat="false" toShortenFQNames="true">
+  <template name="test" value="/** @test */&#10;function $TEST_NAME$()&#10;{&#10;  $END_CODE$&#10;}" description="" toReformat="false" toShortenFQNames="true">
     <variable name="TEST_NAME" expression=" " defaultValue="&quot;test_all_the_things&quot;" alwaysStopAt="true" />
     <variable name="END_CODE" expression="" defaultValue="&quot;// Test code goes here, obvi.&quot;" alwaysStopAt="true" />
     <context>

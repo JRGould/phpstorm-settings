@@ -10,4 +10,32 @@
       <option name="PHP Class Member" value="true" />
     </context>
   </template>
+  <template name="foreach" value="foreach ($ITERABLE$ as $VAR_KEY$ =&gt; $VAR_VALUE$) {&#10;    $END$&#10;}" description="foreach(iterable_expr as $key =&gt; $value) {...}" toReformat="true" toShortenFQNames="true">
+    <variable name="ITERABLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR_KEY" expression="phpSuggestVariableName()" defaultValue="&quot;$index&quot;" alwaysStopAt="true" />
+    <variable name="VAR_VALUE" expression="phpSuggestVariableName()" defaultValue="&quot;$item&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Statement" value="true" />
+    </context>
+  </template>
+  <template name="e" value="echo &quot;$END$&quot;;" description="'echo' statement" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP Statement" value="true" />
+    </context>
+  </template>
+  <template name="$" value="$this-&gt;$END$" description="$this-&gt;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="false" />
+    </context>
+  </template>
+  <template name="test" value="/** @test */&#10;function $TEST_NAME$()&#10;{&#10;  $END_CODE$&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="TEST_NAME" expression=" " defaultValue="&quot;test_all_the_things&quot;" alwaysStopAt="true" />
+    <variable name="END_CODE" expression="" defaultValue="&quot;// Test code goes here, obvi.&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template>
 </templateSet>

@@ -17,9 +17,9 @@
       <mask>*.css</mask>
       <mask>*.mxml</mask>
       <mask>*.ph</mask>
-      <mask>*.p</mask>
       <mask>*.*</mask>
       <mask>*.</mask>
+      <mask>*.p</mask>
       <mask>*.php</mask>
     </recentFileMasks>
   </component>

@@ -5,19 +5,14 @@
     <option name="showResultsInSeparateView" value="true" />
     <option name="SHOW_RESULTS_IN_SEPARATE_VIEW" value="true" />
     <option name="SEARCH_SCOPE" value="Project Files" />
-    <option name="FILE_MASK" value="*.js" />
+    <option name="FILE_MASK" value="*.js,*.php" />
     <recentFileMasks>
-      <mask>*.html</mask>
-      <mask>*.jsp</mask>
-      <mask>*.xml</mask>
-      <mask>*.java</mask>
       <mask>*.as</mask>
       <mask>*.css</mask>
       <mask>*.mxml</mask>
       <mask>*.pjp</mask>
       <mask>*.pj</mask>
       <mask>*</mask>
-      <mask>*.js,</mask>
       <mask>*.js, *</mask>
       <mask>*.js, *.</mask>
       <mask>*.js, *.php</mask>
@@ -37,6 +32,11 @@
       <mask>*.php,*.j</mask>
       <mask>*.php,*.js</mask>
       <mask>*.js</mask>
+      <mask>*.js,</mask>
+      <mask>*.js,*</mask>
+      <mask>*.js,*.</mask>
+      <mask>*.js,*.p</mask>
+      <mask>*.js,*.php</mask>
     </recentFileMasks>
   </component>
 </application>
